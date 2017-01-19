@@ -1,3 +1,4 @@
-/**
- * Created by lave.khoder on 2017-01-17.
- */
+function toggle (){
+  var element = document.querySelector(.link)
+  element.classList.toggle.("link2")
+}
