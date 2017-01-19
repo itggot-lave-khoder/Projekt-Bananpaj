@@ -16,9 +16,13 @@
 nav {
     display: flex;
     flex-direction: row;
-    background-color: lightyellow;
+    background-color: grey;
     flex-grow: 0.2;
     justify-content: space-between;
+}
+
+.menu {
+  display: none;
 }
 
 .link {
@@ -26,7 +30,7 @@ nav {
 }
 
 header {
-    background-color: transparent;
+    background-color: white;
     flex-grow: 1;
 
 }
@@ -69,21 +73,37 @@ and (-webkit-min-device-pixel-ratio: 2){
   aside{
     display:none;
   }
-  .link{
-    display: none;
-  }
-  .link2{
+  nav{
     display: block;
+    flex-direction: column;
+    height: 100px;
   }
-  .ram3 {
-      display: flex;
-      flex-direction: column;
-  }
-  .box2{
-    flex-grow: 1;
-    justify-content: center;
-    align-items: center;
-  }
+.link {
+  display: none;
+}
+.link2{
+  display:block;
+}
 
+.menu{
+  display: block;
+  font-size: 150%;
+}
+.ram3 {
+  display: flex;
+  flex-direction: column;
 
+}
+
+.box2{
+padding: 20px;
+}
+
+.box{
+  padding: 20px;
+  font-size: 120%;
+}
+.bananpaj {
+  padding: 20px;
+}
 }
